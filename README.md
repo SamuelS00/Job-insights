@@ -1,7 +1,8 @@
 ![capa](.images/readme-capa.png)
+
 ### About
 
-The implementation of this project aims to implement analysis from a set of data on jobs. Implementations will be embedded in a web application developed with Flask. Writing tests for implementing data analysis.
+The implementation of this project aims to implement analysis from a set of data on jobs. Implementations will be embedded in a web application developed with `Flask`. Writing tests for implementing data analysis.
 
 ---
 
@@ -27,12 +28,18 @@ The implementation of this project aims to implement analysis from a set of data
 ### Usage
 
 1. **Clone the repository**
+
    * Use the command: `git clone git@github.com:SamuelS00Job-insights.git.`
    * Enter the repository folder you just cloned: `cd Job-insights`
 2. **Create the virtual environment for the project**
    `python3 -m venv .venv && source .venv/bin/activate`
 3. **install the dependencies**
    `python3 -m pip install -r dev-requirements.txt`
+4. **to view in browzer**
+
+   run `flask run`
+
+   go `http://localhost:5000`
 
 ##### Virtual environment
 
